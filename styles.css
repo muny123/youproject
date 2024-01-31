@@ -156,7 +156,7 @@ justify-content: center;
         margin-bottom: 5px;
     }
     /* responsiveness */
-     /* @media (max-width: 900px){
+     @media (max-width: 900px){
         .menu{
             display: none;
         }
@@ -186,4 +186,4 @@ justify-content: center;
         .nav-middle .micimag{
             display: none;
         }
-    }  */
+    } 
