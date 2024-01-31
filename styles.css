@@ -57,15 +57,14 @@ justify-content: center;
 /* side navbar */
   .sidenavbar{
     background: white;
-    width: 17%;
+    width: 20%;
     height: 100vh;
     position: fixed;
     top: 0;
     padding-left: 10px;
     padding-top: 80px;
     padding-bottom: 40px;
-    /* overflow-x: hidden;
-    overflow-y: auto; */
+    overflow-y: auto;
   }
   .sidenavbar hr{
     border: 0;
@@ -86,7 +85,7 @@ justify-content: center;
      margin-bottom: 20px;
      width: fit-content;
      flex-wrap: wrap;
-     gap: 1rem;
+     gap:12px;
      color: rgb(77, 75, 75);
     }
    hr{
@@ -102,7 +101,7 @@ justify-content: center;
    }
     /* video container begins here */
     .container{
-        padding-left: 18%;
+        padding-left: 21%;
         padding-right: 1%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -115,16 +114,17 @@ justify-content: center;
     margin-bottom: 20px;
     }
     ul li{
-        border-radius: 3px;
+        border-radius: 7px;
         text-align: center;
         width: fit-content;
-        font-size: larger;
         font-style: normal;
         align-items: center;
         justify-content: center;
         margin-left: 30px;
-        background-color: rgb(220, 214, 214);
+        background-color: #f2f2f2;
         border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 12px;
     }
      li{
         width:max-content;
@@ -156,7 +156,7 @@ justify-content: center;
         margin-bottom: 5px;
     }
     /* responsiveness */
-     @media (max-width: 900px){
+     /* @media (max-width: 900px){
         .menu{
             display: none;
         }
@@ -186,4 +186,4 @@ justify-content: center;
         .nav-middle .micimag{
             display: none;
         }
-    } 
+    }  */
